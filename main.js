@@ -23,6 +23,7 @@ function gotPoses(results){
     }
 }
 function draw(){
+    background('gray');
     textSize(difference);
     fill("#FF0000");
     text('Navya', 50, 400);
